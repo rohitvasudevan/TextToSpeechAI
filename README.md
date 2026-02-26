@@ -80,9 +80,6 @@ python main.py -t Hello -l english -a us -g female -i 1
 - **_OSError: libespeak.so.1: cannot open shared object file: No such file or directory_**.
 Install libespeak library in your system. If you're using ubuntu you can do it by ```sudo apt install libespeak1```.
 ```shell
-# for Debian based OS
-export LD_LIBRARY_PATH=/path/to/libespeak/directory:$LD_LIBRARY_PATH
-```
 
 - **_aplay: not found_**
 your system needs alsa utils library. If you're on ubuntu you can do it by ```sudo apt-get install alsa-utils```.
@@ -95,11 +92,3 @@ Your system should have **soundcard** on it. You can check this by ```aplay -l``
 
 - [pyttsx3](https://pyttsx3.readthedocs.io/en/latest/)
 
-
-#### Contributing
-
-1. Fork it ( https://github.com/vishalnagda1/text-to-speech/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new pull request.
