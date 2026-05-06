@@ -10,10 +10,6 @@ Text to speech is a Python program and can be used to read text. Currently it ha
 - You must have [Python 3](https://www.python.org) installed in your system.
 - All commands should be run in [Python 3](https://www.python.org) environment.
 
-##### Prerequisite knowledge:
-
-- Basic understanding of [Python](https://www.python.org)
-- Basic understanding of **Terminal** or **Command Prompt**
 
 ### Getting Started
 
